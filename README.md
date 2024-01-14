@@ -1,4 +1,5 @@
 API RestFull com:
+
     -serviço de envio de emails
     -autenticaçao com JWT
     -requisições HTTP via API
