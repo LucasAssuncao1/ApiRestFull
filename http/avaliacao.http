@@ -1,0 +1,28 @@
+POST http://localhost:8083/api/avaliacoes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzAyNjgyNjY0LCJleHAiOjE3MDI3NjkwNjR9.i-3qE7cTUnz2ZzAoTN_qyEbfT_Ql6uVJ3_-lJWoCWkh9aHB83k9IOEYlMpurQVkzD_uQPLNRt9wZ-5mzEBuk4g
+
+{
+    "descricao":"Prova Full Stack"
+    
+}
+###
+
+GET  http://localhost:8083/api/avaliacoes
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzAyNjgzMTc5LCJleHAiOjE3MDI3Njk1Nzl9.zynD7lbIOSjbkwr6QMYdbwqbDNRJdPKgby29CrBFyP_VkTXB2zdrGCUuclkelwIx7IsIjd0DLRs8IzQLIjc3sQ
+
+###
+
+PUT  http://localhost:8083/api/avaliacoes/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzAyNjgyNjY0LCJleHAiOjE3MDI3NjkwNjR9.i-3qE7cTUnz2ZzAoTN_qyEbfT_Ql6uVJ3_-lJWoCWkh9aHB83k9IOEYlMpurQVkzD_uQPLNRt9wZ-5mzEBuk4g
+
+{
+    "descricao":"Prova Full Stack",
+    "pessoa":{
+        "id": 2
+    }
+    
+    
+    
+}

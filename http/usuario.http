@@ -1,0 +1,35 @@
+
+# Endpoint pada cadastro de usuario
+POST http://localhost:8083/api/usuarios
+Content-Type: application/json
+
+{
+    "email":"ciclano@ciclano",
+    "nome":"ciclano",
+    "senha":"123456"
+}
+###
+
+# Enpoind para login no sistema
+POST http://localhost:8083/api/usuarios/login
+Content-Type: application/json
+
+{
+    "email":"ciclano@ciclano",
+    "senha":"123456"
+}
+
+###
+
+POST http://localhost:8083/api/usuarios/email
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzAxNjA5NDg0LCJleHAiOjE3MDE2OTU4ODR9.-iYd7ELCgo4f4hvM5NwrbNo_Spo-0jYVNxXwtxO_V1mh9vMDDvVmFiPszedJx2PQes3eqUDNPjDTLf1TnJkZBQ
+
+{
+    "assunto":"testando envio de email",
+    "mensagem":"<h1>Mandando Email pela API!!!</h1>",
+    "remetente": "emailRemetente",
+    "destinatarios": [
+        "emailDestinatarios"
+    ]
+}

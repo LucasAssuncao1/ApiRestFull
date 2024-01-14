@@ -1,0 +1,22 @@
+POST http://localhost:8083/api/pessoas
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzAyNjgyMjUwLCJleHAiOjE3MDI3Njg2NTB9.mB83nsqvRpPk_3lyfneVkckxjPVVJGXOG5zhuV15jeloIGznYkxVj36drKqA-Ep1korOPdDkY3fZx1GL6Iw7rQ
+
+{
+    "nome":"Italo"
+}
+###
+
+GET  http://localhost:8083/api/pessoas
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzAyNjgzMTc5LCJleHAiOjE3MDI3Njk1Nzl9.zynD7lbIOSjbkwr6QMYdbwqbDNRJdPKgby29CrBFyP_VkTXB2zdrGCUuclkelwIx7IsIjd0DLRs8IzQLIjc3sQ
+
+###
+
+PUT  http://localhost:8083/api/pessoas/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzAyNjgzMTc5LCJleHAiOjE3MDI3Njk1Nzl9.zynD7lbIOSjbkwr6QMYdbwqbDNRJdPKgby29CrBFyP_VkTXB2zdrGCUuclkelwIx7IsIjd0DLRs8IzQLIjc3sQ
+
+{
+    "nome":"Lucas",
+    
+}

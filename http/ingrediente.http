@@ -1,0 +1,12 @@
+POST http://localhost:8083/api/ingredientes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzAyOTQ0MDg0LCJleHAiOjE3MDMwMzA0ODR9.BjXUkr-okQ2H5TMKpkKuW8ETYP2zVle3IYMbgYEbOBFZ680M69CK1koTs4rtSNhgJDfkj_qhwJa6iEgDS-fo8g
+
+{
+    "descricao":"batata frita"
+}
+###
+
+GET  http://localhost:8083/api/ingredientes
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzAyOTQ0MDg0LCJleHAiOjE3MDMwMzA0ODR9.BjXUkr-okQ2H5TMKpkKuW8ETYP2zVle3IYMbgYEbOBFZ680M69CK1koTs4rtSNhgJDfkj_qhwJa6iEgDS-fo8g
+
